@@ -1,3 +1,21 @@
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #b7b7b7 #ffffff;
+  }
+
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #b7b7b7;
+    border-radius: 0px;
+  }
+
 html, body {
     box-sizing: border-box;
     font-size: 62.5%;
